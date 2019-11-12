@@ -1,0 +1,8 @@
+<h1>My task: <%= @task["title"] %></h1>
+
+<h2> <%= @task["details"] %> </h2>
+
+<%= link_to("Back to the list", tasks_path) %>
+
+
+<%= link_to("Edit the task", edit_task_path(@task)) %>
